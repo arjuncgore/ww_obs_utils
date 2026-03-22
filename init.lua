@@ -39,11 +39,11 @@ M.setup = function(config, cfg)
 
     local toggle_mute = function()
         if muted then
-            waywall.exec('obs-cmd --websocket "' .. cfg.ws .. '" audio unmute "' .. cfg.source .. '"')
+            waywall.exec("obs-cmd --websocket " .. cfg.ws .. ' audio unmute "' .. cfg.source .. '"')
             muted = false
             if cfg.overlay then show_text("mic unmuted") end
         else
-            waywall.exec('obs-cmd --websocket "' .. cfg.ws .. '" audio mute "' .. cfg.source .. '"')
+            waywall.exec("obs-cmd --websocket " .. cfg.ws .. ' audio mute "' .. cfg.source .. '"')
             muted = true
             if cfg.overlay then show_text("mic muted") end
         end
