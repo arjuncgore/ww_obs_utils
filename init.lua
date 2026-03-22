@@ -2,8 +2,8 @@
 -- local cfg         = {
 --     overlay    = true,
 --     look       = {
---         X = 20,
---         Y = 1380,
+--         x = 20,
+--         y = 1380,
 --         color = '#000000',
 --         size = 3,
 --     },

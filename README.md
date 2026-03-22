@@ -23,8 +23,8 @@ Setup the websocket as per [here](https://github.com/grigio/obs-cmd?tab=readme-o
 local cfg = {
     overlay = false,
     look = {
-        X = 70,
-        Y = 1280,
+        x = 70,
+        y = 1280,
         color = '#000000',
         size = 3,
     },
@@ -55,8 +55,8 @@ git clone https://github.com/arjuncgore/ww_obs_utils ~/.config/waywall/obs_utils
 local cfg = {
     overlay = false,
     look = {
-        X = 70,
-        Y = 1280,
+        x = 70,
+        y = 1280,
         color = '#000000',
         size = 3,
     },
